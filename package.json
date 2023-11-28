@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-foundations",
+  "version": "1.0.0",
+  "description": "Project to practice basic concepts of nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "mosquerast3",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "get-age": "^1.0.1",
+    "uuid": "^9.0.1"
+  }
+}
