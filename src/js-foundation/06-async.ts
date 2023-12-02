@@ -7,6 +7,6 @@ export const getPokemonById = async (id: string|number): Promise<string> => {
 
         return pokemon.name
     } catch (err) {
-        throw new Error('Pokemon does not exist')        
+        throw 'Pokemon does not exist'    
     }
 }
